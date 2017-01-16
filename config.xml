@@ -83,9 +83,10 @@
     </platform>
     <gap:config-file platform="android" parent="/manifest">
 	<supports-screens android:smallScreens="false"
-                  android:normalScreens="false"
-                  android:largeScreens="false"
-                  android:requiresSmallestWidthDp="600"/>
+                      android:normalScreens="false"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"
+                      android:requiresSmallestWidthDp="600" />
 	</gap:config-file>
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
