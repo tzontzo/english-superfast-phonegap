@@ -85,11 +85,7 @@
 	<supports-screens android:smallScreens="false"
                   android:normalScreens="false"
                   android:largeScreens="false"
-                  android:xlargeScreens="true"
-                  android:anyDensity="true"
-                  android:requiresSmallestWidthDp="600"
-                  android:compatibleWidthLimitDp="integer"
-                  android:largestWidthLimitDp="integer"/>
+                  android:requiresSmallestWidthDp="600"/>
 	</gap:config-file>
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
